@@ -21,7 +21,7 @@ class Notebook {
         $this->processore = $_processore;
     }
 
-    public function getProcessore($_processore) {
+    public function getProcessore() {
         return $this->processore;
     }
 
@@ -32,7 +32,7 @@ class Notebook {
         $this->schedaGrafica = $_schedaGrafica;
     }
 
-    public function getGpu($_schedaGrafica) {
+    public function getGpu() {
         return $this->schedaGrafica;
     }
 
